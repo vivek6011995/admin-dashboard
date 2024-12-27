@@ -1,0 +1,25 @@
+/* src/index.css or any entry point of your CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/open-sans";
+/* Your custom styles here */
+
+body {
+    color: #252B42;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input{
+    font-family: "Open Sans";
+}
+
+.custom-phone-input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 10px;
+  }
